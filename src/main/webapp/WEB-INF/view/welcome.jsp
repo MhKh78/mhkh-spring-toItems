@@ -8,9 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Welcome</title>
 </head>
 <body>
-
+    <h1>Welcome Page</h1>
+    <h2>${helloMessage}</h2>
+    <h2>age parameter is ${age}</h2>
+    <h3>${welcomeMessage}</h3>
 </body>
 </html>

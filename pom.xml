@@ -20,6 +20,7 @@
 <!--        <java-release.version>8</java-release.version>-->
         <war.version>3.2.3</war.version>
         <servlet-api.version>4.0.1</servlet-api.version>
+        <jstl.version>1.2</jstl.version>
     </properties>
 
     <dependencies>
@@ -54,6 +55,12 @@
             <artifactId>javax.servlet-api</artifactId>
             <version>${servlet-api.version}</version>
             <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>${jstl.version}</version>
         </dependency>
 
     </dependencies>
